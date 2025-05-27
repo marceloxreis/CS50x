@@ -44,11 +44,11 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2023/hon
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
-- **[Growth](Week%201%20-%20C/Lab1/Population/population.c)** - _determine how long it takes for a population to reach a particular size._
+- **[Hello](week%201/hello.c)** - _ print a hello + your name 
  
-- **[Mario](Week%201%20-%20C/ProblemSet1/MarioMore/mario.c)** - _create an adjacent pyramid of blocks._
+- **[Mario](week%201/mario.c)** - _create an adjacent pyramid of blocks._
 
-- **[Cash](Week%201%20-%20C/ProblemSet1/Cash/cash.c)** - _minimize the number of coins given to a customer when making a change using greedy algorithms._
+- **[Cash](week%201/cash.c)** - _minimize the number of coins given to a customer when making a change using greedy algorithms._
 
 ---
 
@@ -58,11 +58,11 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2023/hon
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
-- **[Scrabble](Week%202%20-%20Arrays/Lab2/Scrabble/scrabble.c)** - _determine which of two scrabble words is worth more._
+- **[Scrabble](week%202/scrabble.c)** - _determine which of two scrabble words is worth more._
 
-- **[Substitution](Week%202%20-%20Arrays/ProblemSet2/Caesar/caesar.c)** - _program that encrypts messages using Caesar's cipher._
+- **[Substitution](week%202/substitution.c)** - _program that encrypts messages using Caesar's cipher._
 
-- **[Readability](Week%202%20-%20Arrays/ProblemSet2/Readability/readability.c)** - _computes the approximate grade level needed to comprehend some text._
+- **[Readability](week%202/readability.c)** - _calculates the approximate reading grade level of a given text using the Coleman-Liau index._
 
 ---
 
@@ -72,11 +72,11 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2023/hon
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
-- **[Sort](Week%203%20-%20Algorithms/Lab3/Sort/answers.txt)** - _analyze three sorting programs to determine which algorithms they use._
+- **[Sort](week%203/sort)** - _analyze three sorting programs to determine which algorithms they use._
 
-- **[Plurality](Week%203%20-%20Algorithms/ProblemSet3/Plurality/plurality.c)** - _program that runs a plurality election._
+- **[Plurality](week%203/plurality.c)** - _program that runs a plurality election._
 
-- **[Runoff](Week%203%20-%20Algorithms/ProblemSet3/Runoff/runoff.c)** - _program that runs a runoff election._
+- **[Runoff](week%203/runoff.c)** - _program that runs a runoff election._
 
 ---
 
@@ -86,13 +86,13 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2023/hon
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
-- **[Volume](Week%204%20-%20Memory/Lab4/Volume/volume.c)** - _modify the volume of an audio file._
+- **[Volume](week%204/volume/volume.c)** - _modify the volume of an audio file._
 
-- **[Filter Less](Week%204%20-%20Memory/ProblemSet4/FilterLess/filter.c)** - _program that applies filters to BMPs._
+- **[Filter Less](week%204/filter-less)** - _program that applies filters to BMPs._
 
-- **[Filter More](Week%204%20-%20Memory/ProblemSet4/FilterLess/filter.c)** - _program that applies filters to BMPs._
+- **[Filter More](week%204/filter-more)** - _program that applies filters to BMPs._
 
-- **[Recover](Week%204%20-%20Memory/ProblemSet4/Recover/recover.c)** - _program that recovers JPEGs from a forensic image._
+- **[Recover](week%204/recover)** - _program that recovers JPEGs from a forensic image._
 
 ---
 
@@ -102,9 +102,9 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2023/hon
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
-- **[Inheritance](Week%205%20-%20Data%20Structures/Lab5/Inheritance/inheritance.c)** - _simulates the inheritance of blood types for each member of a family._
+- **[Inheritance](week%205/inheritance)** - _simulates the inheritance of blood types for each member of a family._
 
-- **[Speller](Week%205%20-%20Data%20Structures/ProblemSet5/Speller/speller.c)** - _program that spell-checks a file using a hash table._
+- **[Speller](week%205/speller)** - _program that spell-checks a file using a hash table._
 
 ---
 
@@ -115,14 +115,15 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2023/hon
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 
+- **[Hello](week%206/hello.py)** - _ print a hello + your name 
 
-- **[Mario More](Week%206%20-%20Python/ProblemSet6/SentimentalMarioMore/mario.py)** - _create an adjacent pyramid of blocks._
+- **[Mario](week%206/mario.py)** - _create an adjacent pyramid of blocks._
 
-- **[Cash](Week%206%20-%20Python/ProblemSet6/SentimentalCash/cash.py)** - _minimize the number of coins given to a customer when making a change using greedy algorithms._
+- **[Cash](week%206/cash.py)** - _minimize the number of coins given to a customer when making a change using greedy algorithms._
 
-- **[Readability](Week%206%20-%20Python/ProblemSet6/SentimentalReadability/readability.py)** - _computes the approximate grade level needed to comprehend some text._
+- **[Readability](week%206/readability.py)** - _computes the approximate grade level needed to comprehend some text._
 
-- **[DNA](Week%206%20-%20Python/ProblemSet6/DNA/dna.py)** -  _program that identifies a person based on their DNA._
+- **[DNA](week%206/dna)** -  _program that identifies a person based on their DNA._
 
 ---
 
@@ -132,11 +133,11 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2023/hon
 
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
-- **[Songs](Week%207%20-%20SQL/Lab7/Songs/)** - _SQL queries that answer questions about a database of songs._
+- **[Songs](week%207/songs)** - _SQL queries that answer questions about a database of songs._
 
-- **[Movies](Week%207%20-%20SQL/ProblemSet7/Movies/)** - _SQL queries that answer questions about a database of movies._
+- **[Movies](week%207/movies/)** - _SQL queries that answer questions about a database of movies._
 
-- **[Fiftyville](Week%207%20-%20SQL/ProblemSet7/Fiftyville/log.sql)** - _write SQL queries to solve a mystery._
+- **[Fiftyville](week%207/fiftyville)** - _write SQL queries to solve a mystery._
 
 ---
 
@@ -146,9 +147,9 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2023/hon
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-- **[Trivia](Week%208%20-%20HTML,%20CSS,%20JavaScript/Lab8/Trivia/index.html)** - _simple webpage that lets users answer trivia questions._
+- **[Trivia](week%208/trivia)** - _simple webpage that lets users answer trivia questions._
 
-- **[Homepage](Week%208%20-%20HTML,%20CSS,%20JavaScript/ProblemSet8/Homepage/index.html)** - _simple web application with multiple pages._
+- **[Homepage](week%208/homepage)** - _simple web application with multiple pages._
 
 ---
 
@@ -158,9 +159,9 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2023/hon
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-- **[Birthdays](Week%209%20-%20Flask/Lab9/Birthdays/app.py)** - _web application that keeps track of birthdays._
+- **[Birthdays](week%209/birthdays)** - _web application that keeps track of birthdays._
 
-- **[Finance](Week%209%20-%20Flask/ProblemSet9/Finance/app.py)** - _website via which users can 'buy' and 'sell' stocks._
+- **[Finance](week%209/finance)** - _website via which users can 'buy' and 'sell' stocks._
 
 ---
 
@@ -168,7 +169,7 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2023/hon
 
 <br>
 
-- **[MyFincance Website](https://github.com/BogdanOtava/Portfolio-Website)** - _ simple finance tracker  website_.
+- **[MyFincance Website](main/project)** - _ simple finance tracker  website_.
 
 ---
 
