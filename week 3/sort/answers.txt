@@ -1,0 +1,18 @@
+sort1 uses: bubble
+
+How do you know?: time
+
+sort2 uses: merge
+
+How do you know?: time
+
+sort3 uses: selection
+
+How do you know?: time
+Sort1- bubble	Sort2 merge 	 Sort3 selection
+Random 5000	    0m0.060s	0m0.037s	0m0.073s
+Ramdom 50000	0m6.163s	0m1.192s	0m2.860s
+Reversed 5000	0m0.107s	0m0.044s	0m0.057s
+Reversed 50000	0m5.360s	0m0.995s	0m3.010s
+
+
