@@ -10,7 +10,7 @@
 
 An important part of the course, it's submitting the problem sets, as well as the final project for feedback. This repository contains the solutions I've come up with for the problem sets.
 
-Also down below are links and short descriptions for each of the projects. If you'd like to read more about the implementation requirements, there's a link in each folder that will lead to them.
+Also down below are links and short descriptions for each of the projects.
 
 ---
 
