@@ -1,0 +1,21 @@
+HTML Tags:
+1. <header> - Used for the header section.
+2. <nav> - Used to create a navigation bar.
+3. <section> - Used for grouping content on the page.
+4. <h1>, <h2> - Used for headings.
+5. <p> - Used for paragraphs.
+6. <footer> - Used for footer section.
+7. <button> - Used for clickable button.
+8. <div> - Used to structure layout.
+9. <a> - Used for hyperlinks between pages.
+10. <ul> - Used to create unordered lists.
+
+CSS Properties:
+1. background-color - Sets the background color.
+2. font-size - Adjusts text size.
+3. text-align - Aligns text.
+4. margin - Adds space around elements.
+5. border-radius - Rounds the corners of elements.
+
+JavaScript: Used to create an alert when a button is clicked.
+Bootstrap: Used for responsive layout and styling of the navigation bar and buttons.

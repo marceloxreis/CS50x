@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    My finance
+{% endblock %}
+
+{% block main %}
+    <h1>Hello, {{ session['username'] }}</h1>
+    <h2>Your Financial Summary</h2>
+
+    <p>Cash Balance: ${{ cash | usd }}</p>
+    <ul class="navbar-nav me-auto mt-2">
+        <li class="nav-item"><a class="nav-link" href="/edit">Edit cash balance</a><a class="nav-link" href="/buy">ADD</a> </li>
+    </ul>
+    <h3>Spending by Category</h3>
+
+
+    {% if user_data %}
+        <table class="centered-table">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Total Amount</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in user_data %}
+                    <tr>
+                        <td>{{ row['category'] }}</td>
+                        <td>{{ row['amount'] | usd }}</td>
+                        <td>
+                            
+                            <!-- Remove button -->
+                            <form action="/remove" method="post" style="display: inline;">
+                                <input type="hidden" name="transaction_id" value="{{ row['id'] }}">
+                                <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure?')">Remove</button>
+                            </form>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No spending records found.</p>
+    {% endif %}
+{% endblock %}
+

@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <h2>Your Stock Portfolio</h2>
+
+    <!-- Table to display stocks and their holdings -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Stock Symbol</th>
+                <th>Total Shares</th>
+                <th>Current Price</th>
+                <th>Total Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Loop through user_stocks and display each stock's symbol and total shares -->
+            {% for stock in stocks %}
+                <tr>
+                    <td>{{ stock.symbol }}</td>
+                    <td>{{ stock.shares }}</td>
+                    <td>${{ "%.2f"|format(stock.current_price) }}</td>
+                    <td>${{ "%.2f"|format(stock.total_cost) }}</td>
+                    <td>
+                        <form action="/buy" method="get">
+                                <input type="hidden" name="symbol" value="{{ stock.symbol }}">
+                                <button type="submit" class="btn btn-primary">Buy</button>
+                        </form>
+                    </td>
+                    <td><form action="/sell" method="get">
+                        <input type="hidden" name="symbol" value="{{ stock.symbol }}">
+                        <button type="submit" class="btn btn-primary">Sell</button>
+                </form></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+     <!-- Display user's cash balance and grand total -->
+     <h3>Cash Balance: ${{ "%.2f"|format(cash) }}</h3>
+     <h3>Grand Total: ${{ "%.2f"|format(grand_total) }}</h3>
+
+{% endblock %}

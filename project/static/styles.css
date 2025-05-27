@@ -1,0 +1,169 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+
+
+
+/* Wrapper styles */
+/* Centralize wrapper horizontally and vertically */
+.wrapper {
+    width: 480px;
+    background: gray;
+    color: white;
+    padding: 30px 40px;
+    border-radius: 40px;
+    text-align: center;
+
+    /* Centering the wrapper */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Input box styles */
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid;
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+
+}
+
+.input-box input::placeholder {
+    color: white;
+
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    color: white;
+}
+
+/* Remember and forgot password styles */
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+    color: white;
+}
+
+.remember-forgot label input {
+    accent-color: white;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+/* Button styles */
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+/* Register link styles */
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+.centered-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.centered-table th,
+.centered-table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.centered-table th {
+    background-color: #f2f2f2;
+}
+
+.centered-table td {
+    border: 1px solid #ddd;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px; /* Adiciona espaçamento à direita */
+  }

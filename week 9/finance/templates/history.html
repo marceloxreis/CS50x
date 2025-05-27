@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <h2>Your Stock Portfolio History</h2>
+
+    <!-- Table to display stocks and their holdings -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Stock Symbol</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Loop through user_stocks and display each stock's symbol and total shares -->
+            {% for transaction in transactions %}
+                <tr>
+                    <td>{{ transaction.symbol }}</td>
+                    <td>{{ transaction.shares }}</td>
+                    <td>{{ transaction.price }}</td>
+                    <td>{{ transaction.date }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+     <!-- Display user's cash balance and grand total -->
+
+
+{% endblock %}

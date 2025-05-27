@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>Who is the best team of brazil?</h3>
+                <!-- TODO: Add multiple choice question here -->
+                <button id="btn1">Atletico-Mg</button>
+                <button id="btn2">Flamengo</button>
+                <button id="btn3">Palmeiras</button>
+                <div class="message-container">
+                    <div id="message"></div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>Who is the best team of brazil?</h3>
+                <!-- TODO: Add free response question here -->
+                <input autocomplete="off" autofocus name="q" placeholder="Answer">
+                <button id="btn4">Check Answer</button>
+                <div class="message-container">
+                    <div id="message2"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+            // TODO: Add code to check answers to questions
+        let body = document.querySelector('body');
+
+
+
+        document.querySelector('#btn1').addEventListener('click', function() {
+            this.style.backgroundColor = 'green';
+            document.querySelector('#message').textContent = 'Correct';
+        });
+        document.querySelector('#btn2').addEventListener('click', function() {
+            this.style.backgroundColor = 'red';
+            document.querySelector('#message').textContent = 'Incorrect';
+        });
+        document.querySelector('#btn3').addEventListener('click', function() {
+            this.style.backgroundColor = 'red';
+            document.querySelector('#message').textContent = 'Incorrect';
+        });
+        let input = document.querySelector('input');
+
+        document.querySelector('#btn4').addEventListener('click', function() {
+            if (input.value === 'Galo') {
+                document.querySelector('#message2').textContent = 'Correct';
+            } else {
+                document.querySelector('#message2').textContent = 'Incorrect';
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h2>Your Spending Chart</h2>
+    <canvas id="myPieChart"></canvas>
+
+    <form action="/dashboard" method="post">
+        <input type="text" name="category" placeholder="Category" required>
+        <input type="number" name="amount" placeholder="Amount" required>
+        <button type="submit">Add</button>
+    </form>
+
+    <h3>Your Data</h3>
+    <ul>
+        {% for data in user_data %}
+            <li>{{ data.category }}: ${{ data.amount }}
+                <form action="/delete_data" method="post" style="display:inline;">
+                    <input type="hidden" name="id" value="{{ data.id }}">
+                    <button type="submit">Delete</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <script>
+        const data = {
+            labels: {{ user_data | map(attribute='category') | list }},
+            datasets: [{
+                data: {{ user_data | map(attribute='amount') | list }},
+                backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#66bb6a', '#9575cd'],
+            }]
+        };
+        const config = { type: 'pie', data: data };
+        new Chart(document.getElementById('myPieChart'), config);
+    </script>
+</body>
+</html>
