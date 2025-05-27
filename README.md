@@ -169,7 +169,7 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2023/hon
 
 <br>
 
-- **[MyFincance Website](main/project)** - _ simple finance tracker  website_.
+- **[MyFincance Website](project)** - _ simple finance tracker  website_.
 
 ---
 
