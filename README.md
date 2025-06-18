@@ -190,4 +190,3 @@ If you'd like to know more about CS50, I'll leave a few link down below.
 - **[Official Website](https://cs50.harvard.edu/x/2024/)**
 - **[CS50 Introduction on YouTube](https://www.youtube.com/watch?v=3oFAJtFE8YU)**
 - **[CS50 on edX](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x)**
-- **[CS50 on Wikipedia](https://en.wikipedia.org/wiki/CS50)**
